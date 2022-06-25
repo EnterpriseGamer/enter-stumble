@@ -53,7 +53,7 @@ By : ${kapur.bold('Mueq5854')} - Credit : @dkmpostor, @Eskey & @EnterpriseGamer(
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(kapur.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${kapur.white(`User : ${username}`)} | ${kapur.blue(`Trophy : ${trophy}`)} | ${kapur.red(`Crown : ${crown}`)}`));
+console.log(kapur.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${kapur.white(`Nama : ${username}`)} | ${kapur.blue(`Piala : ${trophy}`)} | ${kapur.red(`Mahkota : ${crown}`)}`));
       await sleep(1700);
 
     } else if (result == 'BANNED') {
